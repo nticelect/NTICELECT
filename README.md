@@ -2,14 +2,14 @@
 
 # Ahmed BENBRIK — NTICELECT
 
-### AI Solutions Architect · Agentic AI · RAG · On-Premise LLM
+### AI Solutions Architect · Agentic AI · RAG · MCP · On-Premise LLM
 
-**I build autonomous AI systems that work while you sleep.**
-Multi-agent architectures · MCP integrations · Retrieval systems that respect data sovereignty.
+**I build agentic AI systems and the data pipelines behind them.**
+Multi-agent workflows · MCP integrations · Retrieval over private data · Market-data analytics.
 
 [![Location](https://img.shields.io/badge/Morocco-e63946?style=flat-square)](https://github.com/nticelect)
 [![Focus](https://img.shields.io/badge/Focus-Agentic%20AI%20%7C%20RAG%20%7C%20MCP-2E9BFF?style=flat-square)](https://github.com/nticelect)
-[![Sectors](https://img.shields.io/badge/Sectors-Banking%20%7C%20Health%20%7C%20Legal%20%7C%20Public-F5B301?style=flat-square)](https://github.com/nticelect)
+[![R&D](https://img.shields.io/badge/R%26D-KHWARIZMI%20AI-F5B301?style=flat-square)](https://nticelect.github.io/NTICELECT/reports/blackrock-casino/)
 
 </div>
 
@@ -17,91 +17,78 @@ Multi-agent architectures · MCP integrations · Retrieval systems that respect 
 
 ## 🧠 What I do
 
-I design and ship **production AI systems** for regulated sectors — banks, healthcare, legal, public institutions — across Morocco & MENA, where data cannot leave the building.
+12+ years leading IT projects, now focused on applied AI (since 2023). Master MIAGE (Université Toulouse III – Paul Sabatier). I work in Morocco with a focus on cases where data sovereignty matters.
 
-- **Agentic AI** — autonomous & multi-agent systems that plan, use tools, verify their own work and report back
-- **RAG engineering** — retrieval pipelines over private corpora: chunking strategy, hybrid search, reranking, evaluation
-- **MCP (Model Context Protocol)** — connecting models to real systems: mail, calendars, markets, internal tools
-- **On-premise LLM** — local inference, sovereign deployments, zero data exfiltration
-- **AI optimisation** — latency, cost, context engineering: making models faster, cheaper and more reliable
+- **Agentic AI** — agents that plan, call tools, verify and report back
+- **RAG engineering** — retrieval over private corpora; my reference build is a RAG agent on Google Cloud Run (FastAPI, Agent Development Kit, Firestore, BigQuery)
+- **MCP (Model Context Protocol)** — connecting models to real systems: WordPress, mail, calendars, market data
+- **Local / on-premise LLM** — Ollama-based local inference experiments (Gemma 2) for private workloads
+- **Workflow automation** — n8n pipelines and scheduled cloud agents
 
-> 12+ years leading IT projects. AI architect since 2023. Master MIAGE (Université Toulouse III – Paul Sabatier). Google-certified (Project Management, Cybersecurity, ML on GCP).
+## 🔬 Applied R&D — KHWARIZMI AI (research project)
 
-## 🔬 Current R&D — KHWARIZMI AI
+KHWARIZMI is my applied-AI research project on crypto-market analytics. It is a lab, not a product or a signal service.
 
-A fully autonomous quant-intelligence fleet running 24/7:
-
-- **Named persistent agents** — market sentinel, altcoin hunter, news & macro watcher, regime analyst, guardian, scribe
-- Real-time pipelines: exchange APIs, news firehoses, ETF flows, whale order-flow (CVD), macro calendars
-- A strict backtesting protocol — no rule ships without out-of-sample validation
-- Self-improvement loop: every week the system audits its own signals against market data and logs its lessons
+- **Scheduled scanners** on public APIs only (Binance public data, OKX public, CoinGecko / CoinPaprika): *Altcoin Hunter* and *MEME Radar* score a market universe and email an HTML report.
+- **Data layers explored**: derivatives (funding, open interest, long/short), macro calendar, news RSS, social/YouTube sentiment, Fear & Greed.
+- **Rule-based scoring** ("Confluence Score") and Pine Script indicators for TradingView; local RAG memory (ChromaDB) of the rules.
+- **Principle**: outputs are research material, **not financial advice**; nothing here is a trading recommendation.
+- Read: [BlackRock, the Casino — and Saylor, the Holder?](https://nticelect.github.io/NTICELECT/reports/blackrock-casino/)
 
 ## 🛠️ Tech stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-2E9BFF?style=flat-square)
-![LLM](https://img.shields.io/badge/LLM-On--Premise%20Inference-F5B301?style=flat-square)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-**Domains:** RAG · Multi-Agent Systems · Tool Use / Function Calling · Vector Search · Embeddings · Prompt & Context Engineering · Workflow Automation · Market Data Pipelines
+**Domains:** RAG · Multi-agent systems · Tool use / function calling · Vector search · Prompt & context engineering · Workflow automation · Market-data pipelines
+
+## 📚 Training
+
+Google Cloud / Coursera specialisations (incl. Machine Learning on GCP, 2023) and ongoing Anthropic Academy courses. These are course certificates, not vendor exam certifications.
 
 ## 📌 What you'll find here
 
-Production-grade experiments and open work: agent frameworks, RAG templates, MCP servers, optimisation recipes — and improved forks of projects I respect, rebuilt cleaner, faster, better documented.
+Sanitised, documented extracts of my work: scanners, agent and MCP examples, skill libraries, research reports. No credentials, no client data.
 
 ## 📫 Reach me
 
 - 🌐 [nticelect.com](https://www.nticelect.com)
 - 💼 [LinkedIn — benbrik-ahmed](https://www.linkedin.com/in/benbrik-ahmed)
-- 📍 Morocco — working with clients across MENA & Europe
-
-<div align="center">
-
-*« The algo sees what eyes miss. »*
-
-</div>
+- 📍 Morocco
 
 ---
 
 ## 🇫🇷 Version française
 
-### Architecte Solutions IA · IA agentique · RAG · LLM on-premise
+### Architecte Solutions IA · IA agentique · RAG · MCP · LLM on-premise
 
-**Je construis des systèmes IA autonomes qui travaillent pendant que vous dormez.**
-Architectures multi-agents · Intégrations MCP · Systèmes de recherche documentaire qui respectent la souveraineté des données.
+**Je construis des systèmes d'IA agentique et les pipelines de données qui les alimentent.**
 
 ## 🧠 Ce que je fais
 
-Je conçois et déploie des **systèmes IA en production** pour les secteurs régulés — banques, santé, juridique, institutions publiques — au Maroc et dans la région MENA, là où les données ne peuvent pas quitter l'enceinte.
+12+ ans de direction de projets IT, orienté IA appliquée depuis 2023. Master MIAGE (Université Toulouse III – Paul Sabatier). Basé au Maroc, avec un intérêt marqué pour les cas où la souveraineté des données compte.
 
-- **IA agentique** — systèmes autonomes et multi-agents qui planifient, utilisent des outils, vérifient leur propre travail et rendent compte
-- **Ingénierie RAG** — pipelines de récupération sur corpus privés : stratégie de découpage, recherche hybride, reranking, évaluation
-- **MCP (Model Context Protocol)** — connecter les modèles aux systèmes réels : messagerie, calendriers, marchés, outils internes
-- **LLM on-premise** — inférence locale, déploiements souverains, zéro exfiltration de données
-- **Optimisation IA** — latence, coûts, ingénierie du contexte : des modèles plus rapides, moins chers et plus fiables
+- **IA agentique** — agents qui planifient, appellent des outils, vérifient et rendent compte
+- **Ingénierie RAG** — recherche sur corpus privés ; ma réalisation de référence : un agent RAG sur Google Cloud Run (FastAPI, ADK, Firestore, BigQuery)
+- **MCP** — connecter les modèles à des systèmes réels : WordPress, mail, calendrier, données de marché
+- **LLM local / on-premise** — expérimentations d'inférence locale avec Ollama (Gemma 2)
+- **Automatisation** — workflows n8n et agents cloud planifiés
 
-> 12+ ans de direction de projets IT. Architecte IA depuis 2023. Master MIAGE (Université Toulouse III – Paul Sabatier). Certifications Google (Gestion de projet, Cybersécurité, ML sur GCP).
+## 🔬 R&D appliquée — KHWARIZMI AI (projet de recherche)
 
-## 🔬 R&D en cours — KHWARIZMI AI
-
-Une flotte d'intelligence quantitative entièrement autonome, en service 24/7 : agents persistants nommés (veille marchés, chasse aux altcoins, veille news & macro, analyse de régime), pipelines temps réel (API d'exchanges, flux d'actualités, flux ETF, order flow des baleines), protocole de backtest strict — aucune règle n'entre en production sans validation hors-échantillon — et boucle d'auto-amélioration hebdomadaire.
+Projet R&D (IA appliquée) d'analyse des marchés crypto : un laboratoire, pas un produit ni un service de signaux. Scanners planifiés sur API publiques (*Altcoin Hunter*, *MEME Radar*), couches dérivés / macro / news / sentiment, scoring à règles et indicateurs Pine Script. Les sorties sont du matériau de recherche, **pas du conseil financier**.
 
 ## 📌 Ce que vous trouverez ici
 
-Des expérimentations de niveau production et des travaux ouverts : frameworks d'agents, gabarits RAG, serveurs MCP, recettes d'optimisation — et des forks améliorés de projets que je respecte, reconstruits plus propres, plus rapides, mieux documentés.
+Des extraits documentés et nettoyés de mon travail : scanners, exemples d'agents et MCP, bibliothèque de skills, rapports. Aucun identifiant, aucune donnée client.
 
 ## 📫 Me contacter
 
 - 🌐 [nticelect.com](https://www.nticelect.com)
 - 💼 [LinkedIn — benbrik-ahmed](https://www.linkedin.com/in/benbrik-ahmed)
-- 📍 Maroc — clients dans la région MENA et en Europe
-
-<div align="center">
-
-*« L'algo voit ce que les yeux manquent. »*
-
-</div>
+- 📍 Maroc
