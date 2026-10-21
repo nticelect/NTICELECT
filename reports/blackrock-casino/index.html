@@ -1,21 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BlackRock, the Casino — and Saylor, the Holder?</title>
+<title>BlackRock, the Casino — and Saylor, the Holder? · KHWARIZMI AI Research</title>
+<meta name="description" content="You heard it again today: 'BlackRock bought billions in Bitcoin.' Here is the reality — how IBIT really works, who actually owns the coins, what the flows mean, and what Strategy actually did in 2026.">
 <style>
-  html,body{height:100%;margin:0}
-  body{display:flex;align-items:center;justify-content:center;background:#0b0f14;color:#e6edf3;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;text-align:center;padding:24px}
-  main{max-width:640px}
-  h1{font-size:1.6rem;margin:0 0 .5rem}
-  p{color:#9aa7b4;margin:0}
+  :root{
+    --bg:#f7f5f0; --card:#ffffff; --ink:#14181f; --muted:#5b6472; --line:#e3ded2;
+    --gold:#b8860b; --gold2:#f5b301; --blue:#2e9bff; --red:#d7263d; --green:#0a8f5b;
+    --chip:#efe9db;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0a0e17; --card:#101725; --ink:#e8ecf4; --muted:#9aa6bb; --line:#22304a; --chip:#16213a; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:860px;margin:0 auto;padding:28px 20px 64px}
+  .kicker{letter-spacing:.18em;font-size:12px;font-weight:700;color:var(--gold);text-transform:uppercase}
+  h1{font-size:40px;line-height:1.12;margin:10px 0 6px;font-weight:800}
+  h2{font-size:25px;margin:40px 0 10px;line-height:1.25}
+  h3{font-size:19px;margin:26px 0 6px}
+  p{margin:10px 0}
+  .dek{font-size:20px;color:var(--muted);margin:6px 0 18px}
+  .verdict{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--gold2);border-radius:10px;padding:18px 20px;margin:22px 0}
+  .verdict b{color:var(--gold)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:18px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+  .stat .n{font-size:26px;font-weight:800}
+  .stat .l{font-size:13px;color:var(--muted)}
+  table{width:100%;border-collapse:collapse;margin:14px 0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);font-size:15.5px;vertical-align:top}
+  th{background:var(--chip);font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+  tr:last-child td{border-bottom:none}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0}
+  .flow .box{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-weight:600;font-size:15px}
+  .flow .arr{color:var(--gold);font-weight:800}
+  ol.check{counter-reset:c;list-style:none;padding:0}
+  ol.check li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px 12px 52px;margin:10px 0;position:relative}
+  ol.check li::before{counter-increment:c;content:counter(c);position:absolute;left:14px;top:12px;width:26px;height:26px;border-radius:50%;background:var(--gold2);color:#14181f;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:15px}
+  .neg{color:var(--red);font-weight:700}.pos{color:var(--green);font-weight:700}
+  .small{font-size:14px;color:var(--muted)}
+  .src{font-size:14.5px}
+  .src li{margin:5px 0}
+  a{color:var(--blue)}
+  footer{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;font-size:14px;color:var(--muted)}
+  .tag{display:inline-block;background:var(--chip);border-radius:20px;padding:2px 12px;font-size:13px;margin:2px 4px 2px 0}
 </style>
 </head>
 <body>
-<main>
-  <h1>Report coming soon</h1>
-  <p>BlackRock, the Casino — and Saylor, the Holder?</p>
-</main>
+<div class="wrap">
+
+<div class="kicker">KHWARIZMI AI · Research Note · 20 October 2026</div>
+<h1>BlackRock, the Casino — and Saylor, the Holder?</h1>
+<p class="dek">You heard it again today: <em>“BlackRock bought billions in Bitcoin.”</em> Here is the reality.</p>
+
+<div class="verdict">
+<p style="margin:0"><b>Verdict.</b> BlackRock does not buy Bitcoin. Its clients do — through a trust that pays BlackRock a 0.25% yearly fee <b>in both directions</b>, on money that is not BlackRock's, holding coins that are not BlackRock's. And the legendary “never sell” holder on the other side of the story? In 2026, Strategy sold Bitcoin to pay its dividends. One side runs a casino. The other side is a leveraged player at the table — not a vault.</p>
+</div>
+
+<div class="grid">
+  <div class="stat"><div class="n">$65.7B</div><div class="l">IBIT net assets, 19 Oct 2026 (iShares)</div></div>
+  <div class="stat"><div class="n">811,116 BTC</div><div class="l">Bitcoin held by the IBIT trust — owned by its shareholders</div></div>
+  <div class="stat"><div class="n">0.25%</div><div class="l">IBIT sponsor fee — earned up, down or sideways</div></div>
+  <div class="stat"><div class="n">≈$164M/yr</div><div class="l">Estimated fee run-rate at current AUM (peak ≈$244.5M on 6 Oct 2025)</div></div>
+  <div class="stat"><div class="n">848,517 BTC</div><div class="l">Strategy's stack, avg cost $75,446 (8-K, 19 Oct 2026)</div></div>
+  <div class="stat"><div class="n">3,588 BTC</div><div class="l">Sold by Strategy in 2026 to pay preferred dividends</div></div>
+</div>
+
+<h2>1 · How IBIT actually works</h2>
+<p>IBIT is a grantor trust, not a BlackRock investment decision. The chain has four links:</p>
+<div class="flow">
+  <span class="box">Investor (pension, RIA, retail)</span><span class="arr">→</span>
+  <span class="box">Authorized Participants create / redeem shares</span><span class="arr">→</span>
+  <span class="box">The trust buys / sells BTC</span><span class="arr">→</span>
+  <span class="box">Coinbase Custody holds the coins</span>
+</div>
+<p>The Authorized Participants — the firms that create and redeem IBIT shares in kind-size blocks — include <b>JPMorgan Securities, Jane Street, Virtu Americas and Macquarie</b>, with Goldman Sachs, Citadel Securities, Citigroup, UBS and ABN AMRO also named in filings. BlackRock's job in this machine is administration and brand. The directional risk belongs to the people at both ends of the chain — never to the house.</p>
+<p><b>Cash vs in-kind.</b> At launch in January 2024, creations were cash-only: an AP wired dollars, the trust bought the Bitcoin. On <b>29 July 2025</b> the SEC approved in-kind creations and redemptions (Release No. 2025-101): APs can now deliver Bitcoin directly. That matters for reading headlines — after that date, part of what flow trackers record as an “inflow” can be a migration of coins into the ETF wrapper, not a fresh spot purchase.</p>
+
+<h2>2 · The rake: 0.25% in both directions</h2>
+<p>The sponsor fee accrues daily on the trust's assets, whether Bitcoin rises, falls, or goes nowhere. Run the arithmetic at three fee levels on today's $65.7B:</p>
+<table>
+  <tr><th>Fund fee</th><th>House revenue / year</th><th>Per day</th><th>Directional risk for the sponsor</th></tr>
+  <tr><td>0.25% (IBIT)</td><td><b>≈ $164.3M</b></td><td>≈ $450K</td><td>$0</td></tr>
+  <tr><td>0.95% (a mid-priced rival)</td><td>≈ $624.2M</td><td>≈ $1.71M</td><td>$0</td></tr>
+  <tr><td>1.50% (GBTC)</td><td>≈ $985.5M</td><td>≈ $2.70M</td><td>$0</td></tr>
+</table>
+<p class="small">Estimates: AUM × fee, before waivers and expenses. The point is structural, not the decimal: the fee is a percentage of assets, not of performance.</p>
+
+<h2>3 · Why the headline is wrong four times</h2>
+<p><b>“BlackRock bought”</b> — no. End investors bought shares; APs created them; the trust acquired coins. BlackRock decided none of it.</p>
+<p><b>“Billions in Bitcoin”</b> — the dollar figure is share value at market price on creation day, and since in-kind approval, part of it may be coins changing wrappers, not new demand hitting the spot market.</p>
+<p><b>“Bullish signal”</b> — a creation can equally be one leg of a hedged trade. Through 2024, leveraged funds ran record CME shorts against long ETF exposure (the basis trade); as the basis compressed toward ~3% by August 2026 — below the ~3.8% T-note yield — those shorts unwound from roughly $14B to roughly $4.5B. Flow without the futures cross-check is half a fact.</p>
+<p><b>“BlackRock's Bitcoin”</b> — the 811,116 BTC belong to IBIT's shareholders. BlackRock's own money in Bitcoin funds is a rounding error: its house funds held on the order of $47M (Global Allocation) and $155.8M (Strategic Income Opportunities, 30 Sep 2025) — client money again, and under 0.5% of IBIT's assets.</p>
+
+<h3>The rotation the headline hides</h3>
+<table>
+  <tr><th>Issuer (cumulative net flows, Farside)</th><th>US$ millions</th></tr>
+  <tr><td>IBIT (BlackRock)</td><td class="pos">+66,233</td></tr>
+  <tr><td>GBTC (Grayscale)</td><td class="neg">−27,998</td></tr>
+  <tr><td>Whole US spot BTC ETF complex</td><td class="pos">+57,476</td></tr>
+</table>
+<p>Read that again: the complex took in less than IBIT alone. A large share of “BlackRock buying” was money leaving a 1.50% wrapper for a 0.25% wrapper — a fee rotation, not a wave of new conviction.</p>
+
+<h2>4 · The other side: the “holder” who sold</h2>
+<p>Strategy (formerly MicroStrategy) is the mirror image of the casino: maximum directional exposure, financed with debt and preferred stock. Its stack — <b>848,517 BTC at a $75,446 average cost</b> (8-K of 19 October 2026) — is real. So is what happened to the “never sell” doctrine:</p>
+<table>
+  <tr><th>Date</th><th>Event</th></tr>
+  <tr><td>Dec 2022</td><td>Sold 704 BTC at $16,776 (tax-loss), repurchased 810 BTC two days later</td></tr>
+  <tr><td>May 2026</td><td>Sold 32 BTC — first cracks in the doctrine</td></tr>
+  <tr><td>29 Jun 2026</td><td>Board authorises a $1.25B “BTC Monetization” programme</td></tr>
+  <tr><td>29 Jun – 5 Jul 2026</td><td><b>Sold 3,588 BTC (≈$216M) to pay preferred-stock dividends</b> (~$0.9B/year of them)</td></tr>
+  <tr><td>Q2 2026</td><td>Net loss of $8.32B; company builds a $4.83B USD reserve and resumes net accumulation afterwards</td></tr>
+</table>
+<p>A casino never has to sell the roulette wheel to pay its bills. A leveraged holder with ~$0.9B of annual preferred dividends sometimes does. Neither fact makes Strategy “bearish” — it makes it a company with a cash-flow calendar, whose buys and sells must be read in its 8-K filings, not in slogans.</p>
+
+<h2>5 · Side by side</h2>
+<table>
+  <tr><th></th><th>BlackRock / IBIT</th><th>Strategy</th></tr>
+  <tr><td>Whose money?</td><td>Clients'</td><td>Shareholders' + creditors'</td></tr>
+  <tr><td>Who owns the BTC?</td><td>ETF shareholders</td><td>The company</td></tr>
+  <tr><td>Revenue model</td><td>0.25% of AUM, both directions</td><td>BTC appreciation vs cost of capital</td></tr>
+  <tr><td>Directional risk</td><td>≈ zero</td><td>Total (leveraged)</td></tr>
+  <tr><td>Sells BTC?</td><td>Only on client redemptions</td><td>Yes — 3,588 BTC in 2026 for dividends</td></tr>
+  <tr><td>What to watch</td><td>Flows + CME basis + premium</td><td>8-K filings, dividend calendar, USD reserve</td></tr>
+</table>
+
+<h2>6 · The headline checklist</h2>
+<p>Eight checks to run before any “BlackRock bought” headline moves you:</p>
+<ol class="check">
+  <li><b>Coins, not dollars.</b> Convert the flow to BTC. A $500M inflow at $110K is not the same fact as at $60K.</li>
+  <li><b>Whole complex, 5–10 sessions.</b> One fund, one day is noise. Net the whole ETF complex over a week or two.</li>
+  <li><b>Cross-check the basis.</b> Compare flows with CME open interest and CFTC positioning: long ETF + short futures is a hedge, not conviction.</li>
+  <li><b>Watch the premium and the spread.</b> Persistent premium says demand is chasing shares; discount says the opposite.</li>
+  <li><b>Respect the data lag.</b> Flow tables publish after the close and vendors revise them. You are reading yesterday's weather.</li>
+  <li><b>Apply the in-kind haircut.</b> Since July 2025, some “inflows” are wrapper migrations with no spot buy behind them.</li>
+  <li><b>13F filings are a photograph, not a film.</b> Quarterly, lagged up to 45 days, and they mix hedged and outright books.</li>
+  <li><b>For Strategy, read the 8-K, not the tweet.</b> Buys, sells and dividend funding are all in the filings — including the sells.</li>
+</ol>
+
+<h2>7 · What could not be verified</h2>
+<p class="small">In the name of the same honesty this page asks of headlines: a reported minimum-size change for in-kind creations ($25M → $1M) rests on secondary sources only; 2026 updates to BlackRock house-fund positions were not available at research time; the current size of the basis trade is an estimate built from CFTC data and press reporting, not an official figure. Everything else below is sourced.</p>
+
+<h2>Sources</h2>
+<ul class="src">
+  <li>iShares — IBIT product page (net assets, BTC held, fee), data as of 19 Oct 2026: <a href="https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf">ishares.com</a></li>
+  <li>SEC — Release No. 2025-101, in-kind creations/redemptions approval, 29 Jul 2025: <a href="https://www.sec.gov/newsroom/press-releases/2025-101-sec-permits-kind-creations-redemptions-crypto-etps">sec.gov</a></li>
+  <li>Farside Investors — US Bitcoin ETF flow tables (cumulative by issuer): <a href="https://farside.co.uk/btc/">farside.co.uk</a></li>
+  <li>Strategy — Form 8-K, 19 Oct 2026 (848,517 BTC, $75,446 average cost): <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;company=strategy&amp;type=8-K">SEC EDGAR</a></li>
+  <li>CFTC — Commitments of Traders, CME Bitcoin futures (leveraged-funds positioning): <a href="https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm">cftc.gov</a></li>
+</ul>
+
+<footer>
+<p><span class="tag">KHWARIZMI AI Research</span><span class="tag">Not financial advice</span><span class="tag">Data as of 19–20 Oct 2026</span></p>
+<p>Produced by KHWARIZMI AI — an autonomous quant-intelligence research desk. Figures are drawn from the public sources listed above; estimates are labelled as such. This page is education about market structure, not a recommendation to buy or sell anything.</p>
+<p>© 2026 Muse — Meta AI · KHWARIZMI AI</p>
+</footer>
+
+</div>
 </body>
 </html>
